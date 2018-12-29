@@ -1,0 +1,211 @@
+body {
+  background: ghostwhite;
+  color: black;
+  margin-top: 5rem;
+}
+
+
+.bg-steel {
+  background-color: orange;
+}
+
+.site-header .navbar-nav .nav-link {
+  color: black;
+}
+
+.site-header .navbar-nav .nav-link:hover {
+  color: whitesmoke;
+}
+
+.site-header .navbar-nav .nav-link.active {
+  font-weight: 500;
+}
+
+.content-section {
+  background: #ffffff;
+  padding: 10px 20px;
+  border: 1px solid #dddddd;
+  border-radius: 3px;
+  margin-bottom: 20px;
+}
+
+.article-title {
+  color: #444444;
+}
+
+a.article-title:hover {
+  color: #428bca;
+  text-decoration: none;
+}
+
+.article-content {
+  white-space: pre-line;
+}
+
+.article-img {
+  height: 65px;
+  width: 65px;
+  margin-right: 16px;
+}
+
+.article-metadata {
+  padding-bottom: 1px;
+  margin-bottom: 4px;
+  border-bottom: 1px solid #e3e3e3
+}
+
+.article-metadata a:hover {
+  color: #333;
+  text-decoration: none;
+}
+
+.article-svg {
+  width: 25px;
+  height: 25px;
+  vertical-align: middle;
+}
+
+.account-img {
+  height: 125px;
+  width: 125px;
+  margin-right: 20px;
+  margin-bottom: 16px;
+}
+
+.account-heading {
+  font-size: 2.5rem;
+}
+
+
+.content-section{
+  margin: 0 auto;
+  width: 400px;
+}
+
+h2 {
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  font-size: 45px;
+  text-align: center;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 30px;
+}
+
+#banner {
+  background-image: url("https://media.mnn.com/assets/images/2018/05/FoodDonationBox.jpg.653x0_q80_crop-smart.jpg");
+  background-size: cover;
+  background-position: bottom center;
+  height: 1250px;
+  width: 100%;
+
+}
+
+#banner .banner-content {
+  text-align: center;
+  color: white;
+  background-color: transparent;
+  border: 3px solid white;
+  position: relative;
+  top: 50px;
+  width: 400px;
+  margin: 80px;
+  padding: 20px;
+  display: inline-block;
+
+}
+
+.banner-content:hover {
+  background: #C0D6DF;
+  color: #FFF;
+  border-color: deeppink;
+}
+
+.content-section {
+  color: black;
+  margin: 40px auto;
+  padding: 20px 30px 40px 30px;
+  background-color: #FFFFFFFFF;
+  overflow: auto;
+  width: 75%;
+  border-radius: 4px;
+  align-self: center;
+}
+
+.logo-img{
+  margin-right: 30px;
+  float: left;
+  width: 35px;
+  height: 35px;
+}
+
+#collapseExample{
+  width: 200px;
+}
+
+
+/* Login styles*/
+.background{
+    background: url(sources/bg3.jpg) 50% 50% no-repeat;
+}
+
+.signin{
+    border: 1px solid rgba(255,255,255,0.3);
+    border-radius: 5px;
+    margin: 20px;
+    padding: 3em;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    align-content: center;
+    transform: translateX(-50%) translateY(-50%);
+    position: absolute;
+    z-index: 1;
+}
+.signin h2{
+    margin-top: 0;
+    color: #ffffff;
+    font-size: 50px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: lighter;
+    text-align: center;
+}
+.input-signin{
+    margin: 20px 0;
+    display: block;
+    width:320px;
+    height: 50px;
+    background: whitesmoke;
+    outline: none;
+    border:1px solid rgba(0,0,0,0.5);
+    font-weight: lighter;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    border-radius: 5px;
+    color: #ffffff;
+}
+
+.signin form button{
+    width: 320px;
+    height: 50px;
+    font-size: 16px;
+    background: whitesmoke;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: lighter;
+    color: black;
+    border: 0;
+    border-radius: 5px;
+}
+.btn-signin{
+    width: 320px;
+    height: 50px;
+    font-size: 16px;
+    background: whitesmoke;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: lighter;
+    color: #ffffff;
+    border: 0;
+    border-radius: 5px;
+}
